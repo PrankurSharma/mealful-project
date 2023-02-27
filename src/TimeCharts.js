@@ -26,6 +26,28 @@ function TimeCharts({ objValue }) {
   const options = {
     responsive: true,
     maintainAspectRatio: false,
+    scales: {
+      y: {
+        grid: {
+          drawBorder: true,
+          color: "#ffffff"
+        },
+        ticks: {
+          beginAtZero: true,
+          color: 'white'
+        }
+      },
+      x: {
+        grid: {
+          drawBorder: true,
+          color: "#ffffff"
+        },
+        ticks: {
+          beginAtZero: true,
+          color: 'white'
+        }
+      }
+    },
     plugins: {
       legend: {
         position: 'top',

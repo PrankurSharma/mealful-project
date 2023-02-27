@@ -22,6 +22,28 @@ ChartJS.register(
 function Charts({ ctrObj }) {
   const options = {
     responsive: true,
+    scales: {
+      y: {
+        grid: {
+          drawBorder: true,
+          color: "#ffffff"
+        },
+        ticks: {
+          beginAtZero: true,
+          color: 'white'
+        }
+      },
+      x: {
+        grid: {
+          drawBorder: true,
+          color: "#ffffff"
+        },
+        ticks: {
+          beginAtZero: true,
+          color: 'white'
+        }
+      }
+    },
     plugins: {
       legend: {
         position: 'top',
