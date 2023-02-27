@@ -22,6 +22,7 @@ ChartJS.register(
 function Charts({ ctrObj }) {
   const options = {
     responsive: true,
+    maintainAspectRatio: false,
     scales: {
       y: {
         grid: {
@@ -65,7 +66,11 @@ function Charts({ ctrObj }) {
         }
     ],
     };
-  return <Bar options={options} data={data} />;
+  return (
+    <div style={{width: '100%', height: '100%'}}>
+      <Bar options={options} data={data} style={{width: '100%', height: '100%'}} />
+    </div>
+    );
 }
 
 
