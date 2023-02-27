@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import Charts from './Charts';
 import TimeCharts from './TimeCharts';
 import Collapsible from 'react-collapsible';
