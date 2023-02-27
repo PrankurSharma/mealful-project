@@ -12,7 +12,8 @@ body {
 }
 
 .form {
-  border: 2px solid black;
+  border: 2px solid white;
+  border-radius: 10px;
   width: 50%;
   margin-left: 25%;
 }
@@ -22,7 +23,8 @@ body {
 }
 
 .Collapsible {
-  border: 2px solid black;
+  border: 2px solid white;
+  border-radius: 10px;
   cursor: pointer;
 }
 
