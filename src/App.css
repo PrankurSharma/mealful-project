@@ -24,6 +24,7 @@ body {
 
 .Collapsible {
   border: 2px solid white;
+  background-color: whitesmoke;
   border-radius: 10px;
   cursor: pointer;
 }
